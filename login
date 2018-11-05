@@ -1,14 +1,11 @@
-<html>
-<head>
-<title>
 Login page
 </title>
 </head>
 <body>
 <style>
-h1{background-color: "blue";}
+h1 {background-color: rgb(0, 102, 255);}
 </style>
-<h1 style="font-family:"Times New Roman", Times, serif; Ms;text-align="center";font-size:20pt;
+<h1 class="login" style="font-family:"Times New Roman", Times, serif; Ms;text-align="center";font-size:20pt;
 color:#00FF00;>
 Simple Login Page
 </h1>
@@ -34,4 +31,5 @@ function check(form)/*function to check userid & password*/
 </script>
 </body>
 </html>
+
 
