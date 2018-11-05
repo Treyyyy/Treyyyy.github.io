@@ -12,4 +12,26 @@
     <li>It Won't Kill Ya</li>
     <li>Paris</li>
   </ul>
+  <p>Select your favorite song:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="The one">The one<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Break Up Every Night">Break Up Every Night<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Bloodstream">Bloodstream<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Don't Say">Don't Say<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Something Just Like This">Something Just Like This<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="My Type">My Type<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="It Won't Kill Ya">It Won't Kill Ya<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Paris">Paris<br><br>
+
+  Your favorite song is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
+
+
 </html>
